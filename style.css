@@ -22,7 +22,8 @@ body {
 
 @media (min-width: 768px) {
     .dashboard-container {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, 350px);
+        justify-content: center;
     }
 }
 
